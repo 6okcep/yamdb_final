@@ -10,7 +10,7 @@ services:
       - ./.env
   web:
     container_name: web
-    build: ./api_yamdb
+    build: ../api_yamdb
     image: web
     restart: always
     volumes:
