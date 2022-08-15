@@ -10,7 +10,8 @@ services:
       - ./.env
   web:
     container_name: web
-    build: ../api_yamdb
+    #build: ../api_yamdb
+    build: 6okcep/web:latest
     image: web
     restart: always
     volumes:
