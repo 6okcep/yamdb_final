@@ -108,5 +108,8 @@ $ ./manage.py loaddata dump.json
 - Dmitry Bokser
 - Dmitry Guryaev
 
+## Развернутый проект 
+http://84.252.136.145/redoc/
+Сработает, если виртуальная машина запущена
 
 ![workflow after push](https://github.com/6okcep/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
